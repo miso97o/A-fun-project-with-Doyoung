@@ -1,0 +1,59 @@
+
+1. Project Overview
+  - State the problem to be solved and briefly discuss the algorithms, system structure, and other related issues to resolve the problem 
+
+-A blind date recommended by a chatbot (pseudonym: Hong Ik-i)
+-Through a conversation with Hong ik-i, you can recommend the other person and ask about the other person.
+-Provides a cartoonized user's picture for fun without pursuing only appearance
+
+2. Background and Motivations
+  - the reason you chose the problem (is it worthy?)
+  - present related studies(papers, produce, prototypes, ...) and compare them with your idea/approach
+
+-Unlike existing blind date apps that judge the person by appearance, the reliance on appearance is reduced through cartoonization.
+-Alleviate the awkward atmosphere of blind date through conversation with chatbot.
+
+3. Component Technologies
+  - describe component technologies in detail for implementing your approach/idea to solve the problem
+  - existing algorithm, system to be used
+  - your original algorithm, product to be used
+
+-Using natural language processing technology, it identifies the user's requirements and gives an appropriate answer.
+-Change the user's picture using cartoon filtering technology.
+
+4. Detailed Design and Implementation
+  - describe the 4 parts below in detail
+
+  4.1 Requirement Analysis
+  - define/describe system requirements and analysis
+
+-Make the chatbot use a friendly tone.
+-Through a preliminary investigation, it recommends someone who is likely to fit you well.
+-By adjusting the degree of cartoon filtering, the original image can be inferred.
+
+  4.2 System Design (Synthesis and Analysis)
+    - overall structure, data and control flow, data structures and algorithms, user interface,
+      interface to DBMS, …
+
+-Tests are conducted to obtain some information when registering as a member.
+-Ask Hong ik-i for an introduction and get a recommendation for the other person.
+-You can ask Hong ik-i for information about the other person before and during the conversation with the other person.
+
+  4.3 Development Environment
+  - OS, programming languages, software, tools, IDE, …
+
+-Create a chatbot that processes natural language using Google's Dialogflow and Python.
+-Use CartoonGAN to cartoonize the user's picture.
+-Create an app using React Native and Node.js.
+
+  4.4 Test and Demonstration Plan 
+  - describe your plan on module and system integration tests
+  - present demonstration scenarios in detail
+
+-Each time a function is implemented, it tests itself.
+-Gather a few users and have them try it out and review the requirements and others.
+
+5. Team
+ - member1: mission
+ - member2: mission
+ 
