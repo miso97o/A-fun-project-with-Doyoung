@@ -52,8 +52,3 @@
 -Each time a function is implemented, it tests itself.
 -Gather a few users and have them try it out and review the requirements and others.
 
-5. Team
- - member1: mission
- - member2: mission
- 
-
